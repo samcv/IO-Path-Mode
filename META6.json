@@ -1,36 +1,36 @@
 {
-    "meta6": "0",
-    "tags": [
-        "IO",
-        "permissions",
-        "mode",
-        "utility"
-    ],
-    "provides": {
-        "IO::Path::Mode": "lib/IO/Path/Mode.pm"
-    },
-    "test-depends": [
-        "Test"
-    ],
-    "support": {
-        "source": "git://github.com/jonathanstowe/IO-Path-Mode.git",
-        "email": "jns+git@gellyfish.co.uk",
-        "bugtracker": "https://github.com/jonathanstowe/IO-Path-Mode/issues"
-    },
-    "perl": "6.c",
-    "build-depends": [
-
-    ],
-    "auth": "github:jonathanstowe",
-    "source-url": "git://github.com/jonathanstowe/IO-Path-Mode.git",
-    "depends": [
-
-    ],
-    "name": "IO::Path::Mode",
-    "authors": [
-        "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "version": "0.0.6",
-    "license": "Artistic",
-    "description": "Augment IO::Path with a .mode() method to get the file mode"
+  "name": "IO::Path::Mode",
+  "support": {
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/samcv/IO-Path-Mode",
+    "bugtracker": "https://github.com/samcv/IO-Path-Mode/issues"
+  },
+  "perl": "6.c",
+  "source-url": "git://github.com/samcv/IO-Path-Mode.git",
+  "build-depends": [
+    
+  ],
+  "auth": "github:samcv",
+  "depends": [
+    
+  ],
+  "tags": [
+    "IO",
+    "permissions",
+    "mode",
+    "utility"
+  ],
+  "provides": {
+    "IO::Path::Mode": "lib/IO/Path/Mode.pm"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "license": "Artistic-2.0",
+  "version": "0.0.6",
+  "meta6": "0",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "description": "Augment IO::Path with a .mode() method to get the file mode"
 }
